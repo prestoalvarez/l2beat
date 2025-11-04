@@ -1,3 +1,26 @@
+Generated with discovered.json: 0x27d701a69b7d8a67cb8a1737873baccef2c8069c
+
+# Diff at Tue, 04 Nov 2025 13:46:56 GMT:
+
+- author: Luca Donno (<donnoh99@gmail.com>)
+- comparing to: main@6b72018cd9706ce7cba8ec489b67d7193f34dc20 block: 1761223197
+- current timestamp: 1762263900
+
+## Description
+
+gas market changes.
+
+## Watched changes
+
+```diff
+    contract SystemConfig (eth:0x7A8Ed66B319911A0F3E7288BDdAB30d9c0C875c3) {
+    +++ description: Contains configuration parameters such as the Sequencer address, gas limit on this chain and the unsafe block signer address.
+      values.eip1559Elasticity:
+-        9
++        10
+    }
+```
+
 Generated with discovered.json: 0x10ce92d4a03d9e40475e803c257dc0d61a5a1dbc
 
 # Diff at Thu, 23 Oct 2025 12:41:45 GMT:
